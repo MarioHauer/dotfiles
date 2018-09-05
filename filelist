@@ -2,3 +2,4 @@
 .config/i3blocks/config
 .config/rofi/config
 .config/termite/config
+.config/nvim/init.vim

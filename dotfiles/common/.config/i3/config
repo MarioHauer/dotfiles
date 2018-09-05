@@ -179,6 +179,7 @@ bindsym XF86AudioRaiseVolume exec ponymix increase 5 && pkill -RTMIN+1 i3blocks
 bindsym XF86MonBrightnessUp   exec xbacklight -inc 5 && pkill -RTMIN+2 i3blocks
 bindsym XF86MonBrightnessDown exec xbacklight -dec 5 && pkill -RTMIN+2 i3blocks
 
+#volume wheel G710+
 bindsym KEY_VOLUMEUP exec ponymix increase 1 && pkill -RTMIN+1 i3blocks
 bindsym KEY_VOLUMEDOWN exec ponymix decrease 1 && pkill -RTMIN+1 i3blocks
 
