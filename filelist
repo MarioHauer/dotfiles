@@ -1,5 +1,6 @@
 .config/i3/config
-.config/i3blocks/config
+.config/i3blocks/config:desktop
+.config/i3blocks/config:laptop
 .config/rofi/config
 .config/termite/config
 .config/nvim/init.vim
