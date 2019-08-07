@@ -1,56 +1,52 @@
 call plug#begin('~/.config/nvim/plug')
 
-" Status line
-" https://github.com/vim-airline/vim-airline
-Plug 'bling/vim-airline'
+"Status line
+"https://github.com/vim-airline/vim-airline
+"Plug 'bling/vim-airline'
 
-" Autoformat tool
-" https://github.com/Chiel92/vim-autoformat
-Plug 'Chiel92/vim-autoformat'
+"Autoformat tool
+"https://github.com/Chiel92/vim-autoformat"
+"Plug 'Chiel92/vim-autoformat'
 
-" Fuzzy file finder
-" https://github.com/ctrlpvim/ctrlp.vim
-Plug 'ctrlpvim/ctrlp.vim'
+"Fuzzy file finder
+"https://github.com/ctrlpvim/ctrlp.vim
+"Plug 'ctrlpvim/ctrlp.vim'
 
-" https://github.com/flazz/vim-colorschemes
-Plug 'flazz/vim-colorschemes'
+"GLSL support
+"https://github.com/tikhomirov/vim-glsl
+"Plug 'tikhomirov/vim-glsl'
 
-" GLSL support
-" https://github.com/tikhomirov/vim-glsl
-Plug 'tikhomirov/vim-glsl'
+"File-type sensitive comments
+"https://github.com/tomtom/tcomment_vim
+"Plug 'tomtom/tcomment_vim'
 
-" File-type sensitive comments
-" https://github.com/tomtom/tcomment_vim
-Plug 'tomtom/tcomment_vim'
+"Remap . for plugins
+"https://github.com/tpope/vim-repeat
+"Plug 'tpope/vim-repeat'
 
-" Remap . for plugins
-" https://github.com/tpope/vim-repeat
-Plug 'tpope/vim-repeat'
+"Add surroundings
+"https://github.com/tpope/vim-surround
+"Plug 'tpope/vim-surround'
 
-" Add surroundings
-" https://github.com/tpope/vim-surround
-Plug 'tpope/vim-surround'
+"Rust language support
+"https://github.com/rust-lang/rust.vim
+"Plug 'rust-lang/rust.vim'
 
-" Rust language support
-" https://github.com/rust-lang/rust.vim
-Plug 'rust-lang/rust.vim'
+"Typescript language support
+"https://github.com/leafgarland/typescript-vim
+"Plug 'leafgarland/typescript-vim'
 
-" Typescript language support
-" https://github.com/leafgarland/typescript-vim
-Plug 'leafgarland/typescript-vim'
+"Nerdtree
+"https://github.com/scrooloose/nerdtree"
+"Plug 'scrooloose/nerdtree'
 
-" Nerdtree
-" https://github.com/scrooloose/nerdtree
-Plug 'scrooloose/nerdtree'
-
-"SCSS language support
-"https://github.com/cakebaker/scss-syntax.vim
-Plug 'cakebaker/scss-syntax.vim'
+"Plug 'flazz/vim-colorschemes'
 
 call plug#end()
 
+set termguicolors
 set t_Co=256            " set 256 color
-colorscheme gruvbox     " define syntax color scheme
+"colorscheme gruvbox     " define syntax color scheme
 set background=dark     " adjust vim for dark colors
 set cursorline          " show current cursor line
 set cursorcolumn        " show current cursor column
